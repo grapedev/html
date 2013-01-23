@@ -5,11 +5,16 @@
 ##Структура файлов
 
 ```
-- css
-  - bootstrap-modal.css
-- js
-  - bootstrap-modal.js
-  - jquery-1.9.0.min.js
+- css    // сюда ложить основные стили
+- js     // сюда ложить прочие скрипты
++ vendor // здесь коллекция библиотек
+|   + jquery
+|       - jquery-1.9.0.min.js
+|   + bootstrap
+|       + css
+|           - bootstrap-modal.css
+|       + js
+|           - bootstrap-modal.js
 - index.html
 ```
 
